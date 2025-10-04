@@ -15,13 +15,38 @@ body {
   background-color: aquamarine;
 }
 
+
 .login-container {
   background: rgb(131, 212, 227);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  width: 320px;
+  width: 420px;
 }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    select {
+      width: 350px;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background: white;
+      font-size: 0.9rem;
+      color: #333;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    select:focus {
+      border-color: #4b6cb7;
+      box-shadow: 0 0 5px rgba(75, 108, 183, 0.5);
+    }
 
 .login-container h2 {
   text-align: center;
