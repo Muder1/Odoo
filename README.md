@@ -1,0 +1,2 @@
+# Odoo
+OddoXAmalthea Hackathon Project
